@@ -1,0 +1,17 @@
+jwt:
+  secret: '[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$'
+  apiUrl: http://localhost:4200
+server:
+  port: 8081
+spring:
+  datasource:
+    password: springstudent
+    url: jdbc:mysql://hbstudenttrackerdb.cuxto1thhguu.us-east-1.rds.amazonaws.com:3306/hbstudenttrackerdb?useSSL=false
+    username: springstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true

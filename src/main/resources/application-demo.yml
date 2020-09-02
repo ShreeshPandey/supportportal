@@ -1,0 +1,17 @@
+jwt:
+  secret: '[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$'
+  apiUrl: http://support-portal-app.s3-website-us-east-1.amazonaws.com
+server:
+  port: 5000
+spring:
+  datasource:
+    password: springstudent
+    url: jdbc:mysql://hbstudenttrackerdb.cuxto1thhguu.us-east-1.rds.amazonaws.com:3306/hbstudenttrackerdb?useSSL=false
+    username: springstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
